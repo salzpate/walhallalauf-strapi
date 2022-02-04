@@ -2,7 +2,7 @@
   "name": "walhallalauf-strapi",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Walhallalauf CMS Backend",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -18,7 +18,7 @@
     "sqlite3": "5.0.2"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Ronny Krammer"
   },
   "strapi": {
     "uuid": "341474bf-48e6-4cce-8885-4a86a9211000"
