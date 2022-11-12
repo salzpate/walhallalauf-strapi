@@ -5,6 +5,11 @@ on:
       - main
 env:
   FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+  ADMIN_JWT_SECRET: ${{ secrets.ADMIN_JWT_SECRET }}
+  JWT_SECRET: ${{ secrets.JWT_SECRET }}
+  API_TOKEN_SALT: ${{ secrets.API_TOKEN_SALT }}
+  APP_KEYS: ${{ secrets.APP_KEYS }}
+  DATABASE_URL: ${{ secrets.DATABASE_URL }}
 jobs:
   deploy:
       name: Deploy app
